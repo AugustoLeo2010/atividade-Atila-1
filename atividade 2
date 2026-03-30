@@ -10,9 +10,6 @@ public class ResidenciaNormal {
         
             } else if (consumo <= 50){
                valor = consumo * 8.75; 
-            
-           } else if(consumo > 50){
-            valor = consumo * 9.64;
         }
             else {
                 valor = consumo * 17.46;
