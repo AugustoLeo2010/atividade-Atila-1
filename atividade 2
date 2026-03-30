@@ -1,4 +1,4 @@
-import java.util.Scanner;
+
 
  public class residencia_normal.java {
     public static void main(String[] args) {
