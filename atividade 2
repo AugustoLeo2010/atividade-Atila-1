@@ -1,22 +1,21 @@
+public class ResidenciaNormal {
+    void main (){
+        double consumo = Double.parseDouble(IO.readln("Digite qual o consumo:  (m³)"));
+        double valor;
 
-
- public class residencia_normal.java {
-    public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-
-        double consumo, valor;
-        System.out.print("Digite o seu consumo: ");
-        consumo = sc.nextDouble();
-
-        if (consumo <= 10) {
+        if (consumo <= 10){
             valor = 22.38;
-        } else if (consumo <= 20) {
+        } else if (consumo <= 20){
             valor = consumo * 3.50;
-        } else if (consumo <= 50) {
-            valor = consumo * 6.75;
-        } else if (consumo > 50) {
+        
+            } else if (consumo <= 50){
+               valor = consumo * 8.75; 
+            
+           } else if(consumo > 50){
             valor = consumo * 9.64;
         }
-        System.out.println("Valor da conta: R$ " + valor);
+            else {
+                valor = consumo * 17.46;
+        }
+            IO.println(String.format("O valor da conta é R$ %.2f", valor));
     }
-}
