@@ -1,7 +1,7 @@
 public class ResidenciaSocial {
     void main (){
         double consumo = Double.parseDouble(IO.readln("Digite qual o consumo:  (m³)"));
-        double valor;
+        double valor; 
 
         if (consumo <= 10){
             valor = 7.59;
