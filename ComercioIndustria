@@ -1,4 +1,4 @@
-public class ComercioIndustria {
+public class ComercioIndustria { 
     void main (){
         double consumo = Double.parseDouble(IO.readln("Digite qual o consumo:  (m³)"));
         double valor;
